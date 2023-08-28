@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+    padding: 3px;
+}
+
+.username {
+    margin-right: 10px;
+    color: #333;
+    padding: 3px;
+
+}
+
+/* header over*/
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+}
+
+.menu {
+    flex: 0.5;
+    padding: 1px;
+    text-align: left;
+    background-color: #ebf5fc;
+    
+
+}
+.menu span{
+    margin-top: 5px;
+    display: block;
+    padding-left: 2vw;
+    color: blue;
+    line-height: 10vh;
+    text-align: left;
+
+}
+
+
+
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a  span{
+    color: black; 
+}
+
+.menu a span:hover{
+    background-color: #d3eefe;
+}
+
+.content {
+    flex: 2;
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+
+
+
+
+.single-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.investor-section span {
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.action-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.action-icons .actionbtn {
+    border: none;
+    background: none;
+}
+
+.action-icons .actionicon {
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
+.action-icons .actionicon {
+    font-size: 16px;
+}
+
+
+.block {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.view-details {
+    background-color: white;
+    border: none;
+    border-top: grey outset 1px;
+    color: #007bff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* Additional styles for ellipsis */
+.ellipsis {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    line-height: 1px;
+}
+
+
+.menu p {
+    font-size: xx-small;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    margin-left: auto;
+    bottom: 1vh;
+    left: 3vw;
+}
